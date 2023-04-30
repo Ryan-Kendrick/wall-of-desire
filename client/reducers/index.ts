@@ -1,7 +1,12 @@
 import { combineReducers } from 'redux'
-
-// import stuff from './stuff'
+import Bookreducer from './bookReducer'
+import loading from './loading'
+import loadingNewBook from './loadingNewBook'
+import Gamereducer from './gameReducer'
 
 export default combineReducers({
-  // stuff
+  books: Bookreducer,
+  loading,
+  loadingNewBook,
+  games: Gamereducer,
 })

@@ -20,3 +20,9 @@ coverage/*
 
 # Dotenv env settings
 .env
+
+.vscode/
+.env*
+.flaskenv*
+!.env.project
+!.env.vault

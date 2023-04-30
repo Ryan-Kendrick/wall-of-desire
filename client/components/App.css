@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background-color:  #FAF9F6;
+    margin: auto;
+    position: static
+
+}
+#book-search, #game-search {
+    width: 40vw;
+}
+
+.label-input-search {
+    display: inline-block;
+}
+
+.search-btn {
+    margin-left: 1.5vw;
+}
+
+a {
+    text-decoration: underline;
+}
+
+.books-cont, .games-cont {
+    display:grid;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.book-cont, .game-cont {
+    position: relative;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    width: 33vw;
+
+
+}
+
+.book-topline, .game-topline {
+    display: inline;
+}
+
+.book-delbtn, .game-delbtn {
+  float: right;
+  position: absolute;
+  left: 37vw;
+  top: 1vh;
+  background-color: #E61414;
+  
+}
+
+.search-btn {
+  background-color: #156BF4;
+}
+
+.book-delbtn {
+  left:30vw;
+}
+
+
+.book-title {
+  width: 30vw;
+}
+
+.book-publishdate {
+  position: absolute;
+  bottom: 0px;
+}
+
+img {
+  max-height: 66vh;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+
+.game-cont {
+  position: relative;
+  overflow: hidden;
+  width: 40vw;
+  
+}
+.games-loading, .books-loading{
+  height: 50%;
+}
+
+h2 {
+  padding: 6vh 2vw;
+}
+
+@media only screen and (max-width: 1200px) {
+.book-delbtn {
+  left: 28vw;
+}
+.game-delbtn {
+  left: 33vw;
+}
+}
+
+@media only screen and (max-width: 768px) {
+  .books-cont, .games-cont {
+    grid-template-columns: 1fr;
+}
+}
