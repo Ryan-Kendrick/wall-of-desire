@@ -7,13 +7,10 @@ https://openlibrary.org/dev/docs/api/covers
 https://api.rawg.io/docs/
 
 
-## To Do
-
-- Nothing! v1.0
-
 ## Notes
 
-- I have mixed too much of my own CSS with Tailwind instead of learning the Tailwind classes to do the same job
+- I learned that it is best to avoid using your own CSS on top of Tailwind classes. If I did the project again I would minimise the amount of vanilla CSS used.
+
 
 - Stretch features could include: 
 
